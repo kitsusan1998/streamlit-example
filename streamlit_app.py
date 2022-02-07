@@ -11,8 +11,8 @@ chart_data = pd.DataFrame(
 
 st.line_chart(chart_data)
 
-#df = pd.DataFrame(
-    #np.random.randn(50, 20),
-    #columns=('col %d' % i for i in range(20)))
+df = pd.DataFrame(
+    np.random.randn(50, 20),
+    columns=('col %d' % i for i in range(20)))
 
-#st.dataframe(df)
+st.dataframe(df)

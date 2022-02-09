@@ -6,13 +6,13 @@ import streamlit as st
 import numpy as np
 
 chart_data = pd.DataFrame(
-     np.random.randn(20, 3),
+     np.random.randn(100, 3),
      columns=['a', 'b', 'c'])
 
 st.line_chart(chart_data)
 
 df = pd.DataFrame(
-    np.random.randn(50, 20),
+    np.random.randn(30, 20),
     columns=('col %d' % i for i in range(20)))
 
 st.dataframe(df)

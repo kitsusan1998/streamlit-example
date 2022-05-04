@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import joblib
+#import joblib
 from sklearn.linear_model import LogisticRegression
 
 
@@ -77,6 +77,6 @@ def main(model):
                 )
 
 
-if __name__ == '__main__':
-    model = joblib.load('log.model')
-    main(model)
+#if __name__ == '__main__':
+#    model = joblib.load('log.model')
+#    main(model)
